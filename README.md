@@ -3,7 +3,7 @@
 Automatic Django database configuration on Heroku.
 
 
-![What if configuring PostgreSQL is really easy?](https://github.com/rdegges/django-heroku-postgresify/raw/master/postgresify.jpg)
+![What if configuring PostgreSQL is really easy?](https://github.com/rdegges/django-heroku-postgresify/raw/master/assets/postgresify.jpg)
 
 
 ## Install
