@@ -8,7 +8,7 @@ setup(
     # Basic package information:
     name = 'django-heroku-postgresify',
     version = '0.1',
-    packages = ('postgresify',),
+    py_modules = ('postgresify',),
 
     # Packaging options:
     zip_safe = False,
