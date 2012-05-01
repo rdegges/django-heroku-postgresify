@@ -54,6 +54,7 @@ DATABASES = {
         # HEROKU_POSTGRESQL_RED_URL configs here
     },
 }
+```
 
 
 ## References
