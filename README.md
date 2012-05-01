@@ -32,10 +32,10 @@ For example, let's assume you've got the following environment variables set on
 Heroku (you can view the list of all environment variables by running ``heroku
 config``):
 
-- HEROKU_POSTGRESQL_BLUE_URL
-- HEROKU_POSTGRESQL_RED_URL
-- SHARED_DATABASE_URL 
-- DATABASE_URL 
+- ``HEROKU_POSTGRESQL_BLUE_URL``
+- ``HEROKU_POSTGRESQL_RED_URL``
+- ``SHARED_DATABASE_URL``
+- ``DATABASE_URL``
 
 Your ``DATABASES`` setting would be:
 
