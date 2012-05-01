@@ -34,6 +34,7 @@ config``):
 
 - ``HEROKU_POSTGRESQL_BLUE_URL``
 - ``HEROKU_POSTGRESQL_RED_URL``
+- ``HEROKU_SHARED_POSTGRESQL_RED_URL``
 - ``SHARED_DATABASE_URL``
 - ``DATABASE_URL``
 
@@ -52,6 +53,9 @@ DATABASES = {
     },
     'RED': {
         # HEROKU_POSTGRESQL_RED_URL configs here
+    },
+    'SHARED_RED': {
+        # HEROKU_SHARED_POSTGRESQL_RED_URL configs here
     },
 }
 ```
