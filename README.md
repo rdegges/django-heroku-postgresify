@@ -67,3 +67,24 @@ If you're confused, you should probably read:
 
 - [Heroku's Getting Started Guide](http://devcenter.heroku.com/articles/django)
 - [Deploy Django's PostgreSQL Section](http://www.deploydjango.com/postgresql/index.html)
+
+
+## Tests
+
+[![Build Status](https://secure.travis-ci.org/rdegges/django-heroku-postgresify.png?branch=master)](http://travis-ci.org/rdegges/django-heroku-postgresify)
+
+Want to run the tests? No problem:
+
+``` bash
+$ git clone git://github.com/rdegges/django-heroku-postgresify.git
+$ cd django-heroku-postgresify
+$ python setup.py develop
+...
+$ pip install -r requirements.txt  # Install test dependencies.
+$ nosetests
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 0.166s
+
+OK
+```
