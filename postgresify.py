@@ -10,7 +10,7 @@ SHARED_URL = 'SHARED_DATABASE_URL'
 
 def postgresify():
     """Return a fully configured Django ``DATABASES`` setting. We do this by
-    analyzing all environment variables on Heorku, scanning for postgres DBs,
+    analyzing all environment variables on Heroku, scanning for postgres DBs,
     and then making shit happen, duh.
 
     Returns a fully configured databases dict.
