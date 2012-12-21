@@ -30,12 +30,10 @@ def postgresify():
     for key in environ.iterkeys():
 
         # If this is a Heroku PostgreSQL database:
-        if all((
-                key.startswith('HEROKU_'),
-                'POSTGRESQL' in key,
-                key.endswith('_URL'),
-                databases.get('default', '') != config(env=key)
-            )):
+        if key.startswith('HEROKU_') \
+                and 'POSTGRESQL' in key \
+                and key.endswith('_URL') \
+                and databases.get('default', '') != config(env=key):
 
             # Generate a human-friendly database name:
             db_name = key.split('_')
