@@ -15,7 +15,7 @@ setup(
     include_package_data = True,
 
     # Package dependencies:
-    install_requires = ['Django>=1.2', 'dj-database-url==0.1.2'],
+    install_requires = ['Django>=1.2', 'dj-database-url>=0.3.0'],
 
     # Metadata for PyPI:
     author = 'Randall Degges',

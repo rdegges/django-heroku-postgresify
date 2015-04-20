@@ -27,7 +27,7 @@ def postgresify():
         databases['SHARED_DATABASE'] = config(env=SHARED_URL)
 
     # Analyze all environment variables looking for databases:
-    for key in environ.iterkeys():
+    for key in environ.keys():
 
         # If this is a Heroku PostgreSQL database:
         if key.startswith('HEROKU_') \
