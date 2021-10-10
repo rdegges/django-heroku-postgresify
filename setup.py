@@ -7,7 +7,7 @@ setup(
 
     # Basic package information:
     name = 'django-heroku-postgresify',
-    version = '0.4',
+    version = '0.4.1',
     py_modules = ('postgresify',),
 
     # Packaging options:
@@ -24,8 +24,7 @@ setup(
     url = 'https://github.com/rdegges/django-heroku-postgresify',
     keywords = 'django heroku cloud postgresql postgres db database awesome epic',
     description = 'Automatic Django database configuration on Heroku.',
-    long_description = open(normpath(join(dirname(abspath(__file__)),
-        'README.md'))).read(),
+    long_description = open(normpath(join(dirname(abspath(__file__)), 'README.md'))).read(),
     long_description_content_type='text/markdown'
 
 )
